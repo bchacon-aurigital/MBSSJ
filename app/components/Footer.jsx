@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="w-full bg-[#F80000] text-black font-sofia pt-10 pb-4 px-4 relative space-y-8" style={{ overflow: 'hidden' }}>
+        <footer className="w-full bg-[#F80000] text-black font-sofia pt-10 pb-4 px-4 relative space-y-12" style={{ overflow: 'hidden' }}>
             <div className="mx-auto flex flex-col md:flex-row sm:justify-between w-full px-4 gap-10">
                 {/* Columna izquierda: Info Mauro Sergio BJJ */}
                 <div className="flex-1 max-w-[270px] text-center md:text-left">
@@ -43,7 +43,6 @@ const Footer = () => {
                 </div>
             </div>
 
-            {/* Título grande en la parte inferior */}
             <div className="flex justify-end items-end">
                 <div className="w-full">
                     <div className="md:text-center">
@@ -55,7 +54,7 @@ const Footer = () => {
                                 ACADEMIA DE
                             </p>
                         </div>
-                        <h1 className="text-black text-6xl mb-3 md:mb-0 sm:text-[11.5vw] 2xl:text-[11.8vw] font-black leading-none transform scale-y-110 tracking-wide font-impact">
+                        <h1 className="text-black text-6xl mb-3 md:mb-1 sm:text-[11.5vw] 2xl:text-[11.8vw] font-black leading-none transform scale-y-110 tracking-wide font-impact">
                             BRAZILIAN JIU JITSU
                         </h1>
                     </div>

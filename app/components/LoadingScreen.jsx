@@ -20,29 +20,22 @@ export default function LoadingScreen() {
     }, []);
     
     return (
-        <div className="fixed inset-0 bg-[#2B4A55] z-[9999] flex items-center justify-center">
+        <div className="fixed inset-0 bg-black z-[9999] flex items-center justify-center">
             <div className="text-center">
-                <div className="relative w-40 h-40 mx-auto mb-4">
+                <div className="relative w-32 h-32 mx-auto mb-8">
                     <div className="absolute inset-0 flex items-center justify-center">
+                        <div className="w-full h-full border-2 border-[#F80000] rounded-full animate-spin border-t-transparent"></div>
                     </div>
-                    <Image
-                        src="/assets/logo.svg"
-                        alt="Swissol Logo"
-                        fill
-                        className="z-10 w-10 h-0"
-                        priority
-                    />
-                </div>
-
-                <div className="w-64 h-3 bg-gray-700/50 rounded-full overflow-hidden">
-                    <div 
-                        className="h-full bg-gradient-to-r from-[#fbbf08] to-[#FFA90B] rounded-full"
-                        style={{ width: `${progress}%`, transition: 'width 0.3s ease' }}
-                    />
-                </div>
-                
-                <div className="mt-4 text-white font-medium">
-                    <span className="text-[#fbbf08]">{progress}%</span> Cargando...
+                    <div className="absolute inset-0 flex items-center justify-center">
+                        <Image
+                            src="/assets/LogoNavbar.svg"
+                            alt="Mauro Sergio BJJ Logo"
+                            width={80}
+                            height={80}
+                            className="invert"
+                            priority
+                        />
+                    </div>
                 </div>
             </div>
         </div>

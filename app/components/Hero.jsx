@@ -5,7 +5,6 @@ import Navbar from './Navbar';
 const Hero = () => {
     return (
         <div className="h-screen flex flex-col bg-[#F80000]">
-            {/* Sección superior con Navbar y título */}
             <div className="h-1/2 w-full flex flex-col">
                 <Navbar />
                 <div className="flex-1 flex justify-end items-end px-2">
@@ -27,7 +26,6 @@ const Hero = () => {
                 </div>
             </div>
 
-            {/* Sección inferior con imagen - ocupa exactamente la mitad */}
             <div className="h-1/2 w-full relative">
                 <img
                     src="/assets/HERO.avif"
