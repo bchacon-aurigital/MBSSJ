@@ -8,10 +8,8 @@ const ContactModalContext = createContext({
   closeModal: () => {}
 });
 
-// Hook personalizado para acceder al contexto
 export const useContactModal = () => useContext(ContactModalContext);
 
-// Proveedor del contexto
 export const ContactModalProvider = ({ children }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 

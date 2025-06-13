@@ -30,7 +30,7 @@ const Hero = () => {
                 <img
                     src="/assets/HERO.avif"
                     alt="Brazilian Jiu Jitsu fighter"
-                    className="object-cover grayscale w-full h-full"
+                    className="object-cover grayscale w-full h-full object-[30%_center]"
                 />
             </div>
         </div>

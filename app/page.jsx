@@ -6,6 +6,14 @@ const SobreNosotros = dynamic(() => import("./components/SobreNosotros"), {
   ssr: false,
 });
 
+const Instructor = dynamic(() => import("./components/Instructor"), {
+  ssr: false,
+});
+
+const Comunidad = dynamic(() => import("./components/Comunidad"), {
+  ssr: false,
+});
+
 const Footer = dynamic(() => import("./components/Footer"), {
   ssr: false,
 });
@@ -15,6 +23,8 @@ const Home = () => {
     <main className="">
       <Hero />
       <SobreNosotros />
+      <Instructor />
+      <Comunidad />
       <Footer />
     </main>
   );
