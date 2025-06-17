@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.maurosergiobjj.com/sitemap.xml
+
+# Allow all static assets
+Allow: /assets/
+Allow: /_next/static/
+Allow: /favicon.ico 

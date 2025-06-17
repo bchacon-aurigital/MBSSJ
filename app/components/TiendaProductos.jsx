@@ -6,7 +6,7 @@ import useTranslation from '../hooks/useTranslation';
 const TiendaProductos = () => {
   const { t } = useTranslation();
   return (
-    <section className="bg-white text-black w-full py-10 px-4 md:px-16">
+    <section id="tiendaProductos" className="bg-white text-black w-full py-10 px-4 md:px-16">
       <div className="mb-4 text-lg font-sofia font-medium text-[#555555]">{t('tiendaProductos.sectionTitle')}</div>
       <div className="grid grid-cols-1 xl:grid-cols-2">
         <div className="md:col-span-1 flex flex-col justify-center border-[#7D7D7D]/50 border-t border-l-0 border-b border-r-0 py-14 order-last md:order-first">

@@ -6,7 +6,7 @@ import useTranslation from '../hooks/useTranslation';
 const Instructor = () => {
   const { t } = useTranslation();
   return (
-    <section className="bg-white text-black w-full py-10 px-4 md:px-16">
+    <section id="instructor" className="bg-white text-black w-full py-10 px-4 md:px-16">
       <div className="mb-4 text-lg font-sofia font-medium text-[#555555]">{t('instructor.sectionTitle')}</div>
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <img src="/assets/Instructor.avif" alt={t('instructor.altImage')} className="w-full h-full object-cover" />

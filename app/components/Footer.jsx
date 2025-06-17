@@ -23,25 +23,26 @@ const Footer = () => {
                     <div className="text-center md:text-left">
                         <h4 className="font-medium mb-2 font-impact text-2xl">{t('footer.links.title')}</h4>
                         <ul className="space-y-4 text-xl font-sofia">
-                            <li><a href="#" className="hover:underline">{t('footer.links.sobreNosotros')}</a></li>
-                            <li><a href="#" className="hover:underline">{t('footer.links.instructor')}</a></li>
-                            <li><a href="#" className="hover:underline">{t('footer.links.instalaciones')}</a></li>
+                            <li><a href="#sobreNosotros" className="hover:text-white duration-300 transition-color">{t('footer.links.sobreNosotros')}</a></li>
+                            <li><a href="#instructor" className="hover:text-white duration-300 transition-color">{t('footer.links.instructor')}</a></li>
+                            <li><a href="#instalaciones" className="hover:text-white duration-300 transition-color">{t('footer.links.instalaciones')}</a></li>
+                            <li><a href="#clasesHorarios" className="hover:text-white duration-300 transition-color">{t('navbar.links.horarios')}</a></li>
                         </ul>
                     </div>
                     <div className="text-center md:text-left">
                         <h4 className="font-medium mb-2 font-impact text-2xl">{t('footer.redesSociales.title')}</h4>
                         <ul className="space-y-4 text-xl font-sofia">
-                            <li><a href="#" className="hover:underline">{t('footer.redesSociales.instagram')}</a></li>
-                            <li><a href="#" className="hover:underline">{t('footer.redesSociales.facebook')}</a></li>
+                            <li><a href="https://www.instagram.com/msbjj_academy/?hl=es" className="hover:text-white duration-300 transition-color">{t('footer.redesSociales.instagram')}</a></li>
+                            <li><a href="https://www.facebook.com/MauroSergioBJJ/" className="hover:text-white duration-300 transition-color">{t('footer.redesSociales.facebook')}</a></li>
                         </ul>
                     </div>
                     {/* Columna derecha: Contacto */}
                     <div className="text-center md:text-left">
                         <h4 className="font-medium mb-2 font-impact text-2xl">{t('footer.contacto.title')}</h4>
                         <p className="font-sofia text-xl font-bold">{t('footer.contacto.correo')}</p>
-                        <p className="mb-2 break-all font-sofia text-lg">{t('footer.contacto.email')}</p>
+                        <p className="mb-2 break-all font-sofia text-lg"><a href="mailto:info@maurosergio.com" className="hover:text-white duration-300 transition-color">{t('footer.contacto.email')}</a></p>
                         <p className="font-sofia text-xl font-bold">{t('footer.contacto.whatsapp')}</p>
-                        <p className="mb-2 break-all font-sofia text-lg">{t('footer.contacto.telefono')}</p>
+                        <p className="mb-2 break-all font-sofia text-lg"><a href="https://wa.me/50688504416" className="hover:text-white duration-300 transition-color">{t('footer.contacto.telefono')}</a></p>
                     </div>
                 </div>
             </div>

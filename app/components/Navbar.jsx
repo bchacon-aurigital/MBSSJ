@@ -42,16 +42,16 @@ const Navbar = () => {
         <a href="#" className="text-black font-semibold hover:text-gray-800 transition-colors">
           {t('navbar.links.informacion')}
         </a>
-        <a href="#" className="text-black font-semibold hover:text-gray-800 transition-colors">
+        <a href="#clasesHorarios" className="text-black font-semibold hover:text-gray-800 transition-colors">
           {t('navbar.links.horarios')}
         </a>
-        <a href="#" className="text-black font-semibold hover:text-gray-800 transition-colors">
+        <a href="#tiendaProductos" className="text-black font-semibold hover:text-gray-800 transition-colors">
           {t('navbar.links.tienda')}
         </a>
         <a href="#" className="text-black font-semibold hover:text-gray-800 transition-colors">
           {t('navbar.links.contacto')}
         </a>
-        <a href="#" className="text-black font-semibold hover:text-gray-800 transition-colors">
+        <a href="#sobreNosotros" className="text-black font-semibold hover:text-gray-800 transition-colors">
           {t('navbar.links.sobreNosotros')}
         </a>
       </div>
@@ -97,16 +97,16 @@ const Navbar = () => {
             <a href="#" className="text-white font-semibold hover:text-gray-800 transition-colors" onClick={() => setMenuOpen(false)}>
               {t('navbar.links.informacion')}
             </a>
-            <a href="#" className="text-white font-semibold hover:text-gray-800 transition-colors" onClick={() => setMenuOpen(false)}>
+            <a href="#clasesHorarios" className="text-white font-semibold hover:text-gray-800 transition-colors" onClick={() => setMenuOpen(false)}>
               {t('navbar.links.horarios')}
             </a>
-            <a href="#" className="text-white font-semibold hover:text-gray-800 transition-colors" onClick={() => setMenuOpen(false)}>
+            <a href="#tiendaProductos" className="text-white font-semibold hover:text-gray-800 transition-colors" onClick={() => setMenuOpen(false)}>
               {t('navbar.links.tienda')}
             </a>
             <a href="#" className="text-white font-semibold hover:text-gray-800 transition-colors" onClick={() => setMenuOpen(false)}>
               {t('navbar.links.contacto')}
             </a>
-            <a href="#" className="text-white font-semibold hover:text-gray-800 transition-colors" onClick={() => setMenuOpen(false)}>
+            <a href="#sobreNosotros" className="text-white font-semibold hover:text-gray-800 transition-colors" onClick={() => setMenuOpen(false)}>
               {t('navbar.links.sobreNosotros')}
             </a>
             <button className="bg-[#F80000] text-white px-6 py-2 font-medium hover:bg-gray-800 transition-colors font-impact uppercase mt-4" onClick={() => setMenuOpen(false)}>

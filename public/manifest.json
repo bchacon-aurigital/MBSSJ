@@ -1,0 +1,20 @@
+{
+  "name": "Mauro Sergio BJJ - Academia de Brazilian Jiu Jitsu",
+  "short_name": "MSBJJ",
+  "description": "Academia de Brazilian Jiu Jitsu en San José, Costa Rica. Clases para niños y adultos.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#F80000",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/assets/LogoNavbar.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["sports", "fitness", "martial-arts"],
+  "lang": "es",
+  "scope": "/"
+} 
