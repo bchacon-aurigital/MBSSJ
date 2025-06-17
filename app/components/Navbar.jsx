@@ -1,8 +1,11 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
+import { useContactModal } from '../context/ContactModalContext';
+import useTranslation from '../hooks/useTranslation';
 
 const Navbar = () => {
+  const { t } = useTranslation();
   const [menuOpen, setMenuOpen] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
   const [animateMenu, setAnimateMenu] = useState(false);
@@ -31,22 +34,25 @@ const Navbar = () => {
       <div className="flex items-center">
         <div className="text-black font-medium text-2xl font-impact flex flex-row items-center justify-center">
           <img src="/assets/LogoNavbar.svg" alt="Logo" className="w-10 h-10 mr-2" />
-          <p className="hidden lg:block">MAURO SERGIO BJJ</p>
+          <p className="hidden lg:block">{t('navbar.logo')}</p>
         </div>
       </div>
 
       <div className="hidden lg:flex items-center space-x-8 font-sofia text-xl uppercase">
         <a href="#" className="text-black font-semibold hover:text-gray-800 transition-colors">
-          Información
+          {t('navbar.links.informacion')}
         </a>
         <a href="#" className="text-black font-semibold hover:text-gray-800 transition-colors">
-          Testimonios
+          {t('navbar.links.horarios')}
         </a>
         <a href="#" className="text-black font-semibold hover:text-gray-800 transition-colors">
-          Contacto
+          {t('navbar.links.tienda')}
         </a>
         <a href="#" className="text-black font-semibold hover:text-gray-800 transition-colors">
-          Sobre nosotros
+          {t('navbar.links.contacto')}
+        </a>
+        <a href="#" className="text-black font-semibold hover:text-gray-800 transition-colors">
+          {t('navbar.links.sobreNosotros')}
         </a>
       </div>
 
@@ -54,7 +60,7 @@ const Navbar = () => {
         <button
           className="focus:outline-none"
           onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="Abrir menú"
+          aria-label={t('navbar.buttons.openMenu')}
         >
           <svg className="w-9 h-9 text-[#F80000] bg-black p-2 rounded-md" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
@@ -64,7 +70,7 @@ const Navbar = () => {
 
       <div className="hidden lg:block">
         <button className="bg-black text-[#F80000] px-6 py-2 font-medium hover:bg-gray-800 transition-colors font-impact uppercase">
-          Agendar sesión
+          {t('navbar.buttons.agendarSesion')}
         </button>
       </div>
 
@@ -82,26 +88,29 @@ const Navbar = () => {
             <button
               className="absolute top-4 right-4 text-white focus:outline-none"
               onClick={() => setMenuOpen(false)}
-              aria-label="Cerrar menú"
+              aria-label={t('navbar.buttons.closeMenu')}
             >
               <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
               </svg>
             </button>
             <a href="#" className="text-white font-semibold hover:text-gray-800 transition-colors" onClick={() => setMenuOpen(false)}>
-              Información
+              {t('navbar.links.informacion')}
             </a>
             <a href="#" className="text-white font-semibold hover:text-gray-800 transition-colors" onClick={() => setMenuOpen(false)}>
-              Testimonios
+              {t('navbar.links.horarios')}
             </a>
             <a href="#" className="text-white font-semibold hover:text-gray-800 transition-colors" onClick={() => setMenuOpen(false)}>
-              Contacto
+              {t('navbar.links.tienda')}
             </a>
             <a href="#" className="text-white font-semibold hover:text-gray-800 transition-colors" onClick={() => setMenuOpen(false)}>
-              Sobre nosotros
+              {t('navbar.links.contacto')}
+            </a>
+            <a href="#" className="text-white font-semibold hover:text-gray-800 transition-colors" onClick={() => setMenuOpen(false)}>
+              {t('navbar.links.sobreNosotros')}
             </a>
             <button className="bg-[#F80000] text-white px-6 py-2 font-medium hover:bg-gray-800 transition-colors font-impact uppercase mt-4" onClick={() => setMenuOpen(false)}>
-              Agendar sesión
+              {t('navbar.buttons.agendarSesion')}
             </button>
           </div>
         </div>

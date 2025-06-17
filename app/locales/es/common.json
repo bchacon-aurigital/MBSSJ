@@ -1,0 +1,163 @@
+{
+  "navbar": {
+    "logo": "MAURO SERGIO BJJ",
+    "links": {
+      "informacion": "Información",
+      "horarios": "Horarios", 
+      "tienda": "Tienda",
+      "contacto": "Contacto",
+      "sobreNosotros": "Sobre nosotros"
+    },
+    "buttons": {
+      "agendarSesion": "Agendar sesión",
+      "openMenu": "Abrir menú",
+      "closeMenu": "Cerrar menú"
+    }
+  },
+  "hero": {
+    "name": "MAUR0 SERGIO",
+    "academy": "ACADEMIA DE",
+    "title": "BRAZILIAN JIU JITSU",
+    "altImage": "Brazilian Jiu Jitsu fighter"
+  },
+  "sobreNosotros": {
+    "sectionTitle": "SOBRE NOSOTROS",
+    "title": "BIENVENIDO A <br /> MAURO SERGIO BJJ",
+    "description": "En Mauro Sergio Brazilian Jiu Jitsu, no solo enseñamos defensa personal y técnicas de Jiu Jitsu. Te damos las herramientas para mejorar tu vida a través de la disciplina, el respeto y el crecimiento personal. Únete a nuestra comunidad y empieza tu camino hacia la excelencia hoy mismo.",
+    "buttonText": "AGENDAR SESIÓN",
+    "cards": {
+      "experiencia": {
+        "title": "MÁS DE 30 AÑOS <br class=\"hidden md:block\"/> DE EXPERIENCIA",
+        "description": "Mauro Sergio, cinturón negro 5to Dan y con más de 30 años de experiencia, trajo el Jiu Jitsu brasileño a Costa Rica como el primer representante directo del linaje Gracie. Desde entonces, nuestra academia ha evolucionado para convertirse en un espacio inclusivo, que va más allá de ser solo un lugar para competir."
+      },
+      "campeones": {
+        "title": "CREANDO <br class=\"hidden md:block\"/> CAMPEONES EN LA VIDA",
+        "description": "Nuestro enfoque va más allá de enseñar solo técnicas de combate. En nuestra academia promovemos valores como el respeto, la humildad, la disciplina, la constancia y la autorrealización. Cada clase es una oportunidad para crecer como persona, no solo como atleta."
+      },
+      "defensaPersonal": {
+        "title": "DEFENSA PERSONAL <br class=\"hidden md:block\"/> PARA TODAS LAS EDADES",
+        "description": "Creemos que todos deben sentirse seguros y empoderados. Nuestras clases te enseñan a defenderte de forma efectiva, mientras fortaleces cuerpo y mente. No importa tu edad ni tu experiencia: aquí encontrarás el apoyo para crecer desde el primer día."
+      },
+      "bienestar": {
+        "title": "BIENESTAR MÁS <br class=\"hidden md:block\"/> ALLÁ DEL TATAMI", 
+        "description": "Entrenar en Mauro Sergio BJJ no solo mejora tu condición física. Mejora tu confianza, enfoque y bienestar emocional. Muchos de nuestros alumnos han superado miedos, ansiedad y estrés gracias a la práctica constante de Jiu Jitsu en un ambiente positivo y motivador."
+      }
+    }
+  },
+  "instructor": {
+    "sectionTitle": "NUESTRO INSTRUCTOR",
+    "title": "UN LEGADO <br /> DE VICTORIAS",
+    "description": "Mauro Sergio no solo ha sido múltiple campeón internacional. Ha sido también el mentor de los primeros cinturones negros en Costa Rica, y el responsable de difundir el Jiu Jitsu auténtico en Centroamérica, contando con logros y títulos en campeonatos como:",
+    "altImage": "Nuestro Instructor",
+    "stats": {
+      "paulista": {
+        "number": "7",
+        "description": "Veces campeón Paulista<br />InterGracie"
+      },
+      "mma": {
+        "number": "5", 
+        "description": "Veces campeón<br />en MMA"
+      },
+      "mundial": {
+        "number": "2°",
+        "description": "Lugar en Mundial<br />Master Seniors"
+      }
+    }
+  },
+  "instalaciones": {
+    "sectionTitle": "INSTALACIONES",
+    "altImage": "Instalaciones",
+    "cards": {
+      "comodidad": {
+        "title": "COMODIDAD Y <br class=\"hidden md:block\"/> SEGURIDAD TOTAL",
+        "description": "Nuestra academia está ubicada dentro del Mall Terrazas de Lindora, un entorno moderno y seguro que brinda accesibilidad total para personas de todas las edades, contando con 2 horas de parqueo bajo techo completamente gratis, para entrenar sin importar el clima o la hora del día."
+      },
+      "tatami": {
+        "title": "TATAMI <br class=\"hidden md:block\"/> PROFESIONAL",
+        "description": "Entrená sobre una superficie segura, limpia y diseñada para absorber impactos, ideal tanto para principiantes como para atletas de alto rendimiento. Nuestro tatami cumple con los más altos estándares internacionales para que puedas aprender, rodar y competir con total confianza."
+      },
+      "areaEspera": {
+        "title": "ÁREA DE ESPERA <br class=\"hidden md:block\"/> PARA PADRES",
+        "description": "Tu familia también es parte de nuestra comunidad. Contamos con un espacio cómodo y tranquilo para que padres o acompañantes puedan esperar mientras sus hijos entrenan, fomentando así un ambiente de apoyo y pertenencia."
+      },
+      "duchas": {
+        "title": "DUCHAS Y <br class=\"hidden md:block\"/> VESTUARIOS",
+        "description": "Sabemos que tu tiempo es valioso. Por eso, nuestras instalaciones cuentan con duchas cómodas y vestuarios equipados, para que puedas entrenar sin preocuparte por lo que viene después. Perfecto para quienes vienen directo del trabajo o la escuela."
+      }
+    }
+  },
+  "tiendaProductos": {
+    "sectionTitle": "TIENDA & PRODUCTOS",
+    "title": "CONSIGUE EQUIPO  <br /> DE LA MÁS ALTA CALIDAD",
+    "description": "En la tienda de Fighter District encontrarás todo lo que necesitas para entrenar con comodidad, estilo y autenticidad. Desde kimonos y rashguards hasta camisetas, accesorios y equipo exclusivo de las marcas mas aclamadas a nivel mundial.Entrena con lo mejor, vístete con propósito y lleva contigo el espíritu de MSBJJ dentro y fuera del tatami.",
+    "buttonText": "VER PRODUCTOS",
+    "altImage": "TIENDA & PRODUCTOS"
+  },
+  "clasesHorarios": {
+    "sectionTitle": "CLASES & HORARIOS",
+    "title": "ENTRENA EN EL <br /> HORARIO QUE MEJOR <br /> SE ADAPTA A TU VIDA",
+    "description": "Ya sea temprano en la mañana, al final del trabajo o en las tardes con tus hijos, en MSBJ tenemos un horario que se ajusta a tu rutina. Ofrecemos clases para niños, adultos, mujeres y competidores en distintos horarios durante la semana.",
+    "buttonText": "AGENDAR SESIÓN",
+    "clases": {
+      "bjj": {
+        "title": "BRAZILIAN <br class=\"hidden md:block\" /> JIU-JITSU",
+        "horarios": "Lunes a Jueves - <span class=\"text-[#7D7D7D]/70\">6AM / 6PM</span><br /> Viernes - <span class=\"text-[#7D7D7D]/70\">12PM</span>"
+      },
+      "submission": {
+        "title": "SUBMISSION <br class=\"hidden md:block\" /> WRESTLING",
+        "horarios": "Lunes y Miércoles - <span class=\"text-[#7D7D7D]/70\">12PM</span><br /> Sábados - <span class=\"text-[#7D7D7D]/70\">11AM</span>"
+      },
+      "openMat": {
+        "title": "OPEN <br class=\"hidden md:block\" /> MAT",
+        "horarios": "Viernes - <span class=\"text-[#7D7D7D]/70\">6AM / 6PM</span>"
+      },
+      "kids": {
+        "title": "CLASES <br class=\"hidden md:block\" /> KIDS BJJ",
+        "horarios": "Martes - <span class=\"text-[#7D7D7D]/70\">3PM (3 a 6 años)<br /></span> Martes - <span class=\"text-[#7D7D7D]/70\">4PM (6 a 12 años)<br /></span> Jueves - <span class=\"text-[#7D7D7D]/70\">4PM (Todas las edades)<br /></span> Sábado - <span class=\"text-[#7D7D7D]/70\">10AM (Todas las edades)<br /></span>"
+      },
+      "fundamentals": {
+        "title": "CLASES <br class=\"hidden md:block\" /> FUNDAMENTALS <br class=\"hidden md:block\" /> BRAZILIAN JIU JITSU",
+        "horarios": "Viernes - <span class=\"text-[#7D7D7D]/70\">6AM / 6PM</span>"
+      }
+    }
+  },
+  "comunidad": {
+    "sectionTitle": "ÚNETE A LA FAMILIA",
+    "title": "ÚNETE A UNA <br /> COMUNIDAD QUE <br /> MARCA LA DIFERENCIA",
+    "description": "En MSBJJ celebramos tus logros, te acompañamos en tus retos y te animamos a seguir avanzando incluso cuando quieres rendirte. Realizamos eventos de graduación, convivios familiares, viajes a torneos y más. Cada experiencia dentro de la academia está pensada para fortalecer no solo tu técnica, sino tus lazos y tu motivación.",
+    "buttonText": "AGENDAR SESIÓN",
+    "altImage": "ÚNETE A LA FAMILIA"
+  },
+  "footer": {
+    "description": "Formando personas fuertes dentro y fuera del tatami. Ubicados en Mall Terrazas de Lindora, Sótano 2.",
+    "links": {
+      "title": "LINKS",
+      "sobreNosotros": "Sobre nosotros",
+      "instructor": "Instructor", 
+      "instalaciones": "Instalaciones"
+    },
+    "redesSociales": {
+      "title": "REDES SOCIALES",
+      "instagram": "Instagram",
+      "facebook": "Facebook"
+    },
+    "contacto": {
+      "title": "CONTACTO",
+      "correo": "Correo:",
+      "email": "maurodeoliveirajj@hotmail.com",
+      "whatsapp": "WhatsApp:",
+      "telefono": "8850-4416"
+    },
+    "heroFooter": {
+      "name": "MAUR0 SERGIO",
+      "academy": "ACADEMIA DE",
+      "title": "BRAZILIAN JIU JITSU"
+    },
+    "credits": "Design and Development by:"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "description": "La página que buscas no existe o fue movida.<br />Puedes regresar al inicio haciendo clic abajo.",
+    "buttonText": "Volver al inicio"
+  }
+} 
