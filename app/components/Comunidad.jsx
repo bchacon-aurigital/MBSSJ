@@ -8,7 +8,7 @@ const Comunidad = () => {
   const { t } = useTranslation();
   return (
     <section className="bg-white text-black w-full py-10 px-4 md:px-16">
-      <div className="mb-4 text-lg font-sofia font-medium text-[#555555]">{t('comunidad.sectionTitle')}</div>
+      <div className="mb-4 text-lg font-sofia font-medium text-[#555555]" data-aos="fade-right">{t('comunidad.sectionTitle')}</div>
       <div className="grid grid-cols-1 xl:grid-cols-2">
         <div className="md:col-span-1 flex flex-col justify-center border-[#7D7D7D]/50 border-t border-l-0 border-b border-r-0 py-14 order-last xl:pl-6">
           <h1 className="text-3xl md:text-6xl font-impact font-bold text-[#F80000] mb-4" dangerouslySetInnerHTML={{ __html: t('comunidad.title') }}>
@@ -16,7 +16,7 @@ const Comunidad = () => {
           <p className="mb-6 text-base md:text-xl text-[#7D7D7D] max-w-xl font-sofia font-semibold">
           {t('comunidad.description')}
           </p>
-          <button className="bg-[#F80000] hover:bg-red-700 text-white font-medium font-impact py-3 px-12 rounded transition-all w-fit text-md">
+          <button className="bg-[#F80000] hover:bg-black transition-all duration-500 text-white font-medium font-impact py-3 px-12 rounded w-fit text-md" data-aos="fade-up" data-aos-delay="100">
             {t('comunidad.buttonText')}
           </button>
         </div>

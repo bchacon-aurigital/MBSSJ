@@ -15,7 +15,7 @@ export default function LanguageSelector() {
   const currentLanguage = languages.find(lang => lang.code === language);
 
   return (
-    <div className="fixed bottom-6 left-6 z-50">
+    <div className="fixed bottom-6 left-6 z-50" data-aos="fade-right">
       <div className="relative">
         <button
           onClick={() => setIsOpen(!isOpen)}

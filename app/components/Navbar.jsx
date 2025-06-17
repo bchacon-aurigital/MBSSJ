@@ -3,8 +3,17 @@
 import { useState, useEffect, useRef } from "react";
 import { useContactModal } from '../context/ContactModalContext';
 import useTranslation from '../hooks/useTranslation';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Navbar = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
+  
   const { t } = useTranslation();
   const [menuOpen, setMenuOpen] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
@@ -39,19 +48,19 @@ const Navbar = () => {
       </div>
 
       <div className="hidden lg:flex items-center space-x-8 font-sofia text-xl uppercase">
-        <a href="#" className="text-black font-semibold hover:text-gray-800 transition-colors">
+        <a href="#" className="text-black font-semibold hover:text-white duration-500 transition-colors">
           {t('navbar.links.informacion')}
         </a>
-        <a href="#clasesHorarios" className="text-black font-semibold hover:text-gray-800 transition-colors">
+        <a href="#clasesHorarios" className="text-black font-semibold hover:text-white duration-500 transition-colors">
           {t('navbar.links.horarios')}
         </a>
-        <a href="#tiendaProductos" className="text-black font-semibold hover:text-gray-800 transition-colors">
+        <a href="#tiendaProductos" className="text-black font-semibold hover:text-white duration-500 transition-colors">
           {t('navbar.links.tienda')}
         </a>
-        <a href="#" className="text-black font-semibold hover:text-gray-800 transition-colors">
+        <a href="#" className="text-black font-semibold hover:text-white duration-500 transition-colors">
           {t('navbar.links.contacto')}
         </a>
-        <a href="#sobreNosotros" className="text-black font-semibold hover:text-gray-800 transition-colors">
+        <a href="#sobreNosotros" className="text-black font-semibold hover:text-white duration-500 transition-colors">
           {t('navbar.links.sobreNosotros')}
         </a>
       </div>
@@ -69,7 +78,7 @@ const Navbar = () => {
       </div>
 
       <div className="hidden lg:block">
-        <button className="bg-black text-[#F80000] px-6 py-2 font-medium hover:bg-gray-800 transition-colors font-impact uppercase">
+        <button className="bg-black text-[#F80000] px-6 py-2 font-medium hover:bg-white hover:text-black duration-500 font-impact uppercase">
           {t('navbar.buttons.agendarSesion')}
         </button>
       </div>

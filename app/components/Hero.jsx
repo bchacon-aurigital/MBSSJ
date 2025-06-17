@@ -16,7 +16,7 @@ const Hero = () => {
                                 <p className="text-black text-lg md:text-xl lg:text-2xl font-bold tracking-wider">
                                 {t('hero.name')}
                                 </p>
-                                <p className="text-black text-lg md:text-xl lg:text-2xl font-bold tracking-wider text-right ">
+                                <p className="text-black text-lg md:text-xl lg:text-2xl font-bold tracking-wider text-right" >
                                     {t('hero.academy')}
                                 </p>
                             </div>

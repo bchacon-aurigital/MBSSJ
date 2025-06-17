@@ -3,20 +3,33 @@
 import React from "react";
 import { useContactModal } from '../context/ContactModalContext';
 import useTranslation from '../hooks/useTranslation';
+import Image from "next/image";
 
 const ClasesHorarios = () => {
   const { t } = useTranslation();
   return (
-    <section id="clasesHorarios" className="bg-black text-white w-full py-10 px-4 md:px-16">
-      <div className="mb-4 text-lg font-sofia font-medium text-[#8D8D8D]">{t('clasesHorarios.sectionTitle')}</div>
-      <div className="grid grid-cols-1 xl:grid-cols-2">
+    <section id="clasesHorarios" className="bg-black text-white w-full py-10 px-4 md:px-16 relative">
+      <div className="absolute inset-0 flex items-start justify-start -translate-x-[20%] opacity-5 z-[1]">
+        <Image
+          src="/assets/LogoNavbar.svg" rere
+          alt="Mauro Sergio BJJ Logo"
+          width={1000}
+          height={1000}
+          className="invert"
+          priority
+          data-aos="fade-right"
+          data-aos-delay="300"
+        />
+      </div>
+      <div className="mb-4 text-lg font-sofia font-medium text-[#8D8D8D]" data-aos="fade-right">{t('clasesHorarios.sectionTitle')}</div>
+      <div className="grid grid-cols-1 xl:grid-cols-2 z-">
         <div className="md:col-span-1 flex flex-col justify-center border-[#7D7D7D]/20 border-t border-l-0 border-b border-r-0 py-14">
           <h1 className="text-3xl md:text-6xl font-impact font-bold text-[#F80000] mb-4" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.title') }}>
           </h1>
           <p className="mb-6 text-base md:text-xl text-[#7D7D7D] max-w-xl font-sofia font-semibold">
             {t('clasesHorarios.description')}
           </p>
-          <button className="bg-[#F80000] hover:bg-red-700 text-white font-medium font-impact py-3 px-12 rounded transition-all w-fit text-md">
+          <button className="bg-[#F80000] hover:bg-white hover:text-black duration-500 text-white font-medium font-impact py-3 px-12 rounded transition-all w-fit text-md" data-aos="fade-up" data-aos-delay="100">
             {t('clasesHorarios.buttonText')}
           </button>
         </div>
