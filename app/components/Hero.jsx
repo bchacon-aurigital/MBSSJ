@@ -9,8 +9,8 @@ const Hero = () => {
                 <Navbar />
                 <div className="flex-1 flex justify-end items-end px-2">
                     <div className="w-full">
-                        <div className="text-center">
-                            <div className="flex flex-row justify-between mx-3 font-sofia">
+                        <div className="sm:text-center">
+                            <div className="flex flex-row justify-between sm:mx-3 font-sofia">
                                 <p className="text-black text-lg md:text-xl lg:text-2xl font-bold tracking-wider">
                                 MAUR0 SERGIO
                                 </p>
@@ -18,7 +18,7 @@ const Hero = () => {
                                     ACADEMIA DE
                                 </p>
                             </div>
-                            <h1 className="text-black text-[11.1vw] sm:text-[11.5vw] 2xl:text-[11.9vw] font-black leading-none transform scale-y-110 tracking-wide font-impact">
+                            <h1 className="text-black text-7xl mb-3 sm:mb-0 sm:text-[11.5vw] 2xl:text-[11.9vw] font-black leading-none transform scale-y-110 tracking-wide font-impact">
                                 BRAZILIAN JIU JITSU
                             </h1>
                         </div>

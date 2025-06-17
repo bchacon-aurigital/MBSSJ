@@ -10,6 +10,18 @@ const Instructor = dynamic(() => import("./components/Instructor"), {
   ssr: false,
 });
 
+const Instalaciones = dynamic(() => import("./components/Instalaciones"), {
+  ssr: false,
+});
+
+const TiendaProductos = dynamic(() => import("./components/TiendaProductos"), {
+  ssr: false,
+});
+
+const ClasesHorarios = dynamic(() => import("./components/ClasesHorarios"), {
+  ssr: false,
+});
+
 const Comunidad = dynamic(() => import("./components/Comunidad"), {
   ssr: false,
 });
@@ -24,6 +36,9 @@ const Home = () => {
       <Hero />
       <SobreNosotros />
       <Instructor />
+      <Instalaciones />
+      <TiendaProductos />
+      <ClasesHorarios />
       <Comunidad />
       <Footer />
     </main>

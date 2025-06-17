@@ -18,15 +18,15 @@ const Instructor = () => {
 
           <div className="grid grid-cols-3 text-center border-[#7D7D7D]/50 border-t">
             <div className="border-r border-[#7D7D7D]/50 lg:py-10 lg:px-12 py-6 px-3">
-              <span className="text-[8rem] md:text-[10rem] font-impact font-bold text-[#F80000] leading-none">7</span>
+              <span className="text-[7rem] md:text-[10rem] font-impact font-bold text-[#F80000] leading-none">7</span>
               <p className="mt-2 text-[#7D7D7D] font-sofia font-semibold text-base md:text-lg">Veces campeón Paulista<br />InterGracie</p>
             </div>
             <div className="border-r border-[#7D7D7D]/50 lg:py-10 lg:px-12 py-6 px-3">
-              <span className="text-[8rem] md:text-[10rem] font-impact font-bold text-[#F80000] leading-none">5</span>
+              <span className="text-[7rem] md:text-[10rem] font-impact font-bold text-[#F80000] leading-none">5</span>
               <p className="mt-2 text-[#7D7D7D] font-sofia font-semibold text-base md:text-lg">Veces campeón<br />en MMA</p>
             </div>
             <div className="lg:py-10 lg:px-12 py-6 px-3">
-              <span className="text-[8rem] md:text-[10rem] font-impact font-bold text-[#F80000] leading-none">2°</span>
+              <span className="text-[7rem] md:text-[10rem] font-impact font-bold text-[#F80000] leading-none">2°</span>
               <p className="mt-2 text-[#7D7D7D] font-sofia font-semibold text-base md:text-lg">Lugar en Mundial<br />Master Seniors</p>
             </div>
           </div>

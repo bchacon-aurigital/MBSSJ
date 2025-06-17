@@ -5,7 +5,7 @@ const Comunidad = () => {
     <section className="bg-white text-black w-full py-10 px-4 md:px-16">
       <div className="mb-4 text-lg font-sofia font-medium text-[#555555]">ÚNETE A LA FAMILIA</div>
       <div className="grid grid-cols-1 xl:grid-cols-2">
-        <div className="md:col-span-1 flex flex-col justify-center border-[#7D7D7D]/50 border-t border-l-0 border-b border-r-0 py-14 order-last md:order-first">
+        <div className="md:col-span-1 flex flex-col justify-center border-[#7D7D7D]/50 border-t border-l-0 border-b border-r-0 py-14 order-last xl:pl-6">
           <h1 className="text-3xl md:text-6xl font-impact font-bold text-[#F80000] mb-4">
            ÚNETE A UNA <br /> COMUNIDAD QUE <br /> MARCA LA DIFERENCIA
           </h1>
@@ -17,7 +17,7 @@ const Comunidad = () => {
           </button>
         </div>
 
-        <img src="/assets/Comunidad.avif" alt="ÚNETE A LA FAMILIA" className="w-full h-full object-cover order-first md:order-last" />
+        <img src="/assets/Comunidad.avif" alt="ÚNETE A LA FAMILIA" className="w-full h-full object-cover order-first " />
       </div>
     </section>
   );
