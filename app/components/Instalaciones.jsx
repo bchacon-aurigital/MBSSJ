@@ -10,7 +10,7 @@ import useTranslation from '../hooks/useTranslation';
 const SobreNosotros = () => {
   const { t } = useTranslation();
   return (
-    <section className="bg-black text-white w-full py-10 px-4 md:px-16">
+    <section id="instalaciones" className="bg-black text-white w-full py-10 px-4 md:px-16">
       <div className="mb-4 text-lg font-sofia font-medium text-[#8D8D8D] uppercase" data-aos="fade-right">{t('instalaciones.sectionTitle')}</div>
       <div className="grid grid-cols-1">
       <img src="/assets/Instalaciones.avif" alt={t('instalaciones.altImage')} className="w-full max-h-[500px] object-cover border-[#7D7D7D]/50 border-t py-5" />

@@ -26,6 +26,10 @@ const Comunidad = dynamic(() => import("./components/Comunidad"), {
   ssr: false,
 });
 
+const Encuentranos = dynamic(() => import("./components/Encuentranos"), {
+  ssr: false,
+});
+
 const Footer = dynamic(() => import("./components/Footer"), {
   ssr: false,
 });
@@ -40,6 +44,7 @@ const Home = () => {
       <TiendaProductos />
       <ClasesHorarios />
       <Comunidad />
+      <Encuentranos />
       <Footer />
     </main>
   );

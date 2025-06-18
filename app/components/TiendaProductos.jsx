@@ -15,9 +15,11 @@ const TiendaProductos = () => {
           <p className="mb-6 text-base md:text-xl text-[#7D7D7D] max-w-xl font-sofia font-semibold">
           {t('tiendaProductos.description')}
           </p>
-          <button className="bg-[#F80000] hover:bg-black duration-500 text-white font-medium font-impact py-3 px-12 rounded transition-all w-fit text-md" data-aos="fade-up" data-aos-delay="100">
+          <div data-aos="fade-up" data-aos-delay="100">
+          <a href="#" className="bg-[#F80000] hover:bg-black duration-500 text-white font-medium font-impact py-3 px-12 rounded transition-all w-fit text-md">
             {t('tiendaProductos.buttonText')}
-          </button>
+          </a>
+          </div>
         </div>
 
         <img src="/assets/TiendaProductos.avif" alt={t('tiendaProductos.altImage')} className="w-full h-full object-cover order-first md:order-last" />

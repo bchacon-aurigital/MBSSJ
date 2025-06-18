@@ -16,9 +16,11 @@ const Comunidad = () => {
           <p className="mb-6 text-base md:text-xl text-[#7D7D7D] max-w-xl font-sofia font-semibold">
           {t('comunidad.description')}
           </p>
-          <button className="bg-[#F80000] hover:bg-black transition-all duration-500 text-white font-medium font-impact py-3 px-12 rounded w-fit text-md" data-aos="fade-up" data-aos-delay="100">
+          <div data-aos="fade-up" data-aos-delay="100">
+          <a href="https://wa.me/50688504416" className="bg-[#F80000] hover:bg-black transition-all duration-500 text-white font-medium font-impact py-3 px-12 rounded w-fit text-md">
             {t('comunidad.buttonText')}
-          </button>
+          </a>
+          </div>
         </div>
 
         <img src="/assets/Comunidad.avif" alt={t('comunidad.altImage')} className="w-full h-full object-cover order-first " />

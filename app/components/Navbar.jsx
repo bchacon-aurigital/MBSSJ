@@ -48,7 +48,7 @@ const Navbar = () => {
       </div>
 
       <div className="hidden lg:flex items-center space-x-8 font-sofia text-xl uppercase">
-        <a href="#" className="text-black font-semibold hover:text-white duration-500 transition-colors">
+        <a href="#instalaciones" className="text-black font-semibold hover:text-white duration-500 transition-colors">
           {t('navbar.links.informacion')}
         </a>
         <a href="#clasesHorarios" className="text-black font-semibold hover:text-white duration-500 transition-colors">
@@ -56,9 +56,6 @@ const Navbar = () => {
         </a>
         <a href="#tiendaProductos" className="text-black font-semibold hover:text-white duration-500 transition-colors">
           {t('navbar.links.tienda')}
-        </a>
-        <a href="#" className="text-black font-semibold hover:text-white duration-500 transition-colors">
-          {t('navbar.links.contacto')}
         </a>
         <a href="#sobreNosotros" className="text-black font-semibold hover:text-white duration-500 transition-colors">
           {t('navbar.links.sobreNosotros')}
@@ -78,9 +75,9 @@ const Navbar = () => {
       </div>
 
       <div className="hidden lg:block">
-        <button className="bg-black text-[#F80000] px-6 py-2 font-medium hover:bg-white hover:text-black duration-500 font-impact uppercase">
+        <a href="https://wa.me/50688504416" className="bg-black text-[#F80000] px-6 py-2 font-medium hover:bg-white hover:text-black duration-500 font-impact uppercase">
           {t('navbar.buttons.agendarSesion')}
-        </button>
+        </a>
       </div>
 
       {showMenu && (
@@ -103,7 +100,7 @@ const Navbar = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
               </svg>
             </button>
-            <a href="#" className="text-white font-semibold hover:text-gray-800 transition-colors" onClick={() => setMenuOpen(false)}>
+            <a href="#instalaciones" className="text-white font-semibold hover:text-gray-800 transition-colors" onClick={() => setMenuOpen(false)}>
               {t('navbar.links.informacion')}
             </a>
             <a href="#clasesHorarios" className="text-white font-semibold hover:text-gray-800 transition-colors" onClick={() => setMenuOpen(false)}>
@@ -112,15 +109,12 @@ const Navbar = () => {
             <a href="#tiendaProductos" className="text-white font-semibold hover:text-gray-800 transition-colors" onClick={() => setMenuOpen(false)}>
               {t('navbar.links.tienda')}
             </a>
-            <a href="#" className="text-white font-semibold hover:text-gray-800 transition-colors" onClick={() => setMenuOpen(false)}>
-              {t('navbar.links.contacto')}
-            </a>
             <a href="#sobreNosotros" className="text-white font-semibold hover:text-gray-800 transition-colors" onClick={() => setMenuOpen(false)}>
               {t('navbar.links.sobreNosotros')}
             </a>
-            <button className="bg-[#F80000] text-white px-6 py-2 font-medium hover:bg-gray-800 transition-colors font-impact uppercase mt-4" onClick={() => setMenuOpen(false)}>
+            <a href="https://wa.me/50688504416" className="bg-[#F80000] text-white px-6 py-2 font-medium hover:bg-gray-800 transition-colors font-impact uppercase mt-4" onClick={() => setMenuOpen(false)}>
               {t('navbar.buttons.agendarSesion')}
-            </button>
+            </a>
           </div>
         </div>
       )}

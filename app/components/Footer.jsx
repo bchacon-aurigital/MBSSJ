@@ -9,7 +9,7 @@ const Footer = () => {
         <footer className="w-full bg-[#F80000] text-black font-sofia pt-10 pb-4 px-4 relative space-y-12" style={{ overflow: 'hidden' }}>
             <div className="mx-auto flex flex-col md:flex-row sm:justify-between w-full px-4 gap-10">
                 {/* Columna izquierda: Info Mauro Sergio BJJ */}
-                <div className="flex-1 max-w-[270px] text-center md:text-left">
+                <div className="flex-1 max-w-[270px] text-center md:text-left mx-auto sm:mx-0">
                     <div className="text-black font-medium text-2xl font-impact flex flex-row items-center justify-center md:justify-start">
                         <img src="/assets/LogoNavbar.svg" alt="Logo" className="w-10 h-10 mr-2" />
                         {t('navbar.logo')}
@@ -65,7 +65,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="w-full h-5 bg-[#000000] flex justify-end items-end absolute left-0 bottom-0">
+            <div className="w-full h-6 bg-[#000000] flex justify-center items-center absolute left-0 bottom-0">
                 <a
                     href="https://aurigital.com"
                     target="_blank"

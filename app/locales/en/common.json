@@ -101,23 +101,23 @@
     "clases": {
       "bjj": {
         "title": "BRAZILIAN <br class=\"hidden md:block\" /> JIU-JITSU",
-        "horarios": "Monday to Thursday - <span class=\"text-[#7D7D7D]/70\">6AM / 6PM</span><br /> Friday - <span class=\"text-[#7D7D7D]/70\">12PM</span>"
+        "horarios": "Monday to Thursday - <span className=\"text-[#7D7D7D]/70\">6AM / 6PM</span><br /> Friday - <span class=\"text-[#7D7D7D]/70\">12PM</span>"
       },
       "submission": {
         "title": "SUBMISSION <br class=\"hidden md:block\" /> WRESTLING",
-        "horarios": "Monday and Wednesday - <span class=\"text-[#7D7D7D]/70\">12PM</span><br /> Saturday - <span class=\"text-[#7D7D7D]/70\">11AM</span>"
+        "horarios": "Monday and Wednesday - <span className=\"text-[#7D7D7D]/70\">12PM</span><br /> Saturday - <span class=\"text-[#7D7D7D]/70\">11AM</span>"
       },
       "openMat": {
         "title": "OPEN <br class=\"hidden md:block\" /> MAT",
-        "horarios": "Friday - <span class=\"text-[#7D7D7D]/70\">6AM / 6PM</span>"
+        "horarios": "Friday - <span className=\"text-[#7D7D7D]/70\">6AM / 6PM</span>"
       },
       "kids": {
         "title": "KIDS BJJ <br class=\"hidden md:block\" /> CLASSES",
-        "horarios": "Tuesday - <span class=\"text-[#7D7D7D]/70\">3PM (3 to 6 years)<br /></span> Tuesday - <span class=\"text-[#7D7D7D]/70\">4PM (6 to 12 years)<br /></span> Thursday - <span class=\"text-[#7D7D7D]/70\">4PM (All ages)<br /></span> Saturday - <span class=\"text-[#7D7D7D]/70\">10AM (All ages)<br /></span>"
+        "horarios": "Tuesday - <span className=\"text-[#7D7D7D]/70\">3PM (3 to 6 years)<br /></span> Tuesday - <span class=\"text-[#7D7D7D]/70\">4PM (6 to 12 years)<br /></span> Thursday - <span class=\"text-[#7D7D7D]/70\">4PM (All ages)<br /></span> Saturday - <span class=\"text-[#7D7D7D]/70\">10AM (All ages)<br /></span>"
       },
       "fundamentals": {
         "title": "CLASSES <br class=\"hidden md:block\" /> FUNDAMENTALS <br class=\"hidden md:block\" /> BRAZILIAN JIU JITSU",
-        "horarios": "Friday - <span class=\"text-[#7D7D7D]/70\">6AM / 6PM</span>"
+        "horarios": "Friday - <span className=\"text-[#7D7D7D]/70\">6AM / 6PM</span>"
       }
     }
   },
@@ -159,5 +159,12 @@
     "title": "Page not found",
     "description": "The page you are looking for does not exist or was moved.<br />You can return to the home page by clicking below.",
     "buttonText": "Back to home"
+  },
+  "encuentranos": {
+    "sectionTitle": "LOCATION",
+    "title": "Your next <br /> training is closer <br /> than you think",
+    "description": "Our academy is located in Mall Terrazas de Lindora, Basement Level 2, an accessible, safe and modern area. Getting there is easy, with ample covered parking, nearby public transportation and everything you need to train.",
+    "buttonText": "How to get there?",
+    "altImage": "Mauro Sergio BJJ Location"
   }
 } 
