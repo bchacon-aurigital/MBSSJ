@@ -25,7 +25,14 @@ const Encuentranos = () => {
           </div>
         </div>
 
-        <img src="/assets/Comunidad.avif" alt={t('encuentranos.altImage')} className="w-full h-full object-cover order-last " />
+        <video 
+          src="/assets/ubicacion.webm" 
+          className="w-full h-full object-cover order-last"
+          
+          controls
+          loop
+          playsInline
+        />
       </div>
     </section>
   );
