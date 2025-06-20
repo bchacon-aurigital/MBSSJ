@@ -75,7 +75,7 @@ const Navbar = () => {
       </div>
 
       <div className="hidden lg:block">
-        <a href="https://wa.me/50688504416" className="bg-black text-[#F80000] px-6 py-2 font-medium hover:bg-white hover:text-black duration-500 font-impact uppercase">
+        <a href="https://wa.me/50688504416" className="bg-black text-white px-6 py-2 font-medium hover:bg-white hover:text-black duration-500 font-impact uppercase">
           {t('navbar.buttons.agendarSesion')}
         </a>
       </div>

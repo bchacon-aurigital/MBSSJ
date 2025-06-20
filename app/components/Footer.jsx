@@ -51,10 +51,10 @@ const Footer = () => {
                 <div className="w-full">
                     <div className="md:text-center">
                         <div className="flex flex-row justify-between md:mx-4 font-sofia">
-                            <p className="text-black text-lg md:text-xl lg:text-2xl font-bold tracking-wider">
+                            <p className="text-white text-lg md:text-xl lg:text-2xl font-bold tracking-wider">
                                 {t('footer.heroFooter.name')}
                             </p>
-                            <p className="text-black text-lg md:text-xl lg:text-2xl font-bold tracking-wider text-right">
+                            <p className="text-white text-lg md:text-xl lg:text-2xl font-bold tracking-wider text-right">
                                 {t('footer.heroFooter.academy')}
                             </p>
                         </div>
