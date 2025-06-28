@@ -18,6 +18,10 @@ const TiendaProductos = dynamic(() => import("./components/TiendaProductos"), {
   ssr: false,
 });
 
+const Torneos = dynamic(() => import("./components/Torneos"), {
+  ssr: false,
+});
+
 const ClasesHorarios = dynamic(() => import("./components/ClasesHorarios"), {
   ssr: false,
 });
@@ -42,6 +46,7 @@ const Home = () => {
       <Instructor />
       <Instalaciones />
       <TiendaProductos />
+      <Torneos />
       <ClasesHorarios />
       <Comunidad />
       <Encuentranos />

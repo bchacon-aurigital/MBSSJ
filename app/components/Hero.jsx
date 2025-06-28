@@ -6,7 +6,7 @@ import useTranslation from '../hooks/useTranslation';
 const Hero = () => {
     const { t } = useTranslation();
     return (
-        <div className="h-screen flex flex-col bg-[#F80000]">
+        <div className="h-auto lg:h-screen flex flex-col bg-[#F80000]">
             <div className="h-1/2 w-full flex flex-col">
                 <Navbar />
                 <div className="flex-1 flex justify-end items-end px-2">
@@ -28,11 +28,16 @@ const Hero = () => {
                 </div>
             </div>
 
-            <div className="h-1/2 w-full relative">
+            <div className="h-1/3 lg:h-1/2 w-full relative">
                 <img
                     src="/assets/HERO.avif"
                     alt={t('hero.altImage')}
-                    className="object-cover grayscale w-full h-full object-[30%_center]"
+                    className="hidden lg:block object-cover w-full h-full object-center"
+                />
+                <img
+                    src="/assets/HEROMobile.avif"
+                    alt={t('hero.altImage')}
+                    className="block lg:hidden w-full h-full object-center"
                 />
             </div>
         </div>
