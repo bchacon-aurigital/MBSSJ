@@ -20,7 +20,7 @@ const Hero = () => {
                                     {t('hero.academy')}
                                 </p>
                             </div>
-                            <h1 className="text-black text-7xl mb-3 sm:mb-0 sm:text-[11.5vw] 2xl:text-[11.9vw] font-black leading-none transform scale-y-110 tracking-wide font-impact">
+                            <h1 className="text-black text-6xl mb-3 sm:mb-0 sm:text-[11.5vw] 2xl:text-[11.9vw] font-black leading-none transform scale-y-110 tracking-wide font-impact">
                                 {t('hero.title')}
                             </h1>
                         </div>
