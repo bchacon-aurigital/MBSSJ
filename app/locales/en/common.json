@@ -166,5 +166,12 @@
     "description": "Our academy is located in Mall Terrazas de Lindora, Basement Level 2, an accessible, safe and modern area. Getting there is easy, with ample covered parking, nearby public transportation and everything you need to train.",
     "buttonText": "How to get there?",
     "altImage": "Mauro Sergio BJJ Location"
+  },
+  "torneos": {
+    "sectionTitle": "TOURNAMENTS & COMPETITIONS",
+    "title": "PUT YOUR COMBAT<br /> SKILLS TO THE TEST",
+    "description": "At MSBJJ we don't just prepare you to compete, we prepare you to grow. Living the experience of competing with discipline, strategy and sportsmanship. Whether you're looking to challenge yourself for the first time or are ready to step onto the podium, our competition programs offer you the technical, physical and mental preparation you need to give your best in every fight.",
+    "buttonText": "BOOK SESSION",
+    "altImage": "TOURNAMENTS & COMPETITIONS"
   }
 } 

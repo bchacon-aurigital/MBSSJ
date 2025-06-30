@@ -166,5 +166,12 @@
     "description": "Nuestra academia está ubicada en el Mall Terrazas de Lindora, Sótano Nivel 2, una zona accesible, segura y moderna. Llegar es fácil, con amplio parqueo bajo techo, transporte público cercano y todo lo que necesitas para entrenar.",
     "buttonText": "¿Cómo llegar?",
     "altImage": "Ubicación Mauro Sergio BJJ"
+  },
+  "torneos": {
+    "sectionTitle": "TORNEOS & COMPETENCIAS",
+    "title": "PON A PRUEBA TUS <br />HABILIDADES DE COMBATE",
+    "description": "En MSBJJ no solo te preparamos para competir, te preparamos para crecer. Viviendo la experiencia de competir con disciplina, estrategia y espíritu deportivo. Ya sea que busques desafiarte por primera vez o estés listo para subir al podio, nuestros programas de competencia te ofrecen la preparación técnica, física y mental que necesitas para dar lo mejor de vos en cada lucha.",
+    "buttonText": "AGENDAR SESIÓN",
+    "altImage": "TORNEOS & COMPETENCIAS"
   }
 } 
