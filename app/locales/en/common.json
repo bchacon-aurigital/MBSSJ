@@ -101,23 +101,31 @@
     "clases": {
       "bjj": {
         "title": "BRAZILIAN <br class=\"hidden md:block\" /> JIU-JITSU",
-        "horarios": "Monday to Thursday - <span className=\"text-[#7D7D7D]/70\">6AM / 6PM</span><br /> Friday - <span class=\"text-[#7D7D7D]/70\">12PM</span>"
+        "horarios": "Monday to Thursday — <span class=\"text-[#7D7D7D]/70\">6AM / 6PM</span><br /> Monday — <span class=\"text-[#7D7D7D]/70\">7PM</span><br /> Wednesday — <span class=\"text-[#7D7D7D]/70\">7PM</span>"
       },
       "submission": {
         "title": "SUBMISSION <br class=\"hidden md:block\" /> WRESTLING",
-        "horarios": "Monday and Wednesday - <span className=\"text-[#7D7D7D]/70\">12PM</span><br /> Saturday - <span class=\"text-[#7D7D7D]/70\">11AM</span>"
+        "horarios": "Wednesday — <span class=\"text-[#7D7D7D]/70\">12PM</span><br /> Friday — <span class=\"text-[#7D7D7D]/70\">7PM</span><br /> Saturday — <span class=\"text-[#7D7D7D]/70\">11AM</span>"
+      },
+      "boxeo": {
+        "title": "BOXING",
+        "horarios": "Tuesday — <span class=\"text-[#7D7D7D]/70\">7AM / 7PM</span><br /> Thursday — <span class=\"text-[#7D7D7D]/70\">7PM</span>"
       },
       "openMat": {
         "title": "OPEN <br class=\"hidden md:block\" /> MAT",
-        "horarios": "Friday - <span className=\"text-[#7D7D7D]/70\">6AM / 6PM</span>"
+        "horarios": "Friday — <span class=\"text-[#7D7D7D]/70\">6PM</span>"
       },
       "kids": {
         "title": "KIDS BJJ <br class=\"hidden md:block\" /> CLASSES",
-        "horarios": "Tuesday - <span className=\"text-[#7D7D7D]/70\">3PM (3 to 6 years)<br /></span> Tuesday - <span class=\"text-[#7D7D7D]/70\">4PM (6 to 12 years)<br /></span> Thursday - <span class=\"text-[#7D7D7D]/70\">4PM (All ages)<br /></span> Saturday - <span class=\"text-[#7D7D7D]/70\">10AM (All ages)<br /></span>"
+        "horarios": "Monday — <span class=\"text-[#7D7D7D]/70\">4PM (11 to 13 years)</span><br /> Tuesday — <span class=\"text-[#7D7D7D]/70\">3PM (3 to 6 years)</span><br /> Tuesday — <span class=\"text-[#7D7D7D]/70\">4PM (6 to 12 years)</span><br /> Wednesday — <span class=\"text-[#7D7D7D]/70\">4PM (11 to 13 years)</span><br /> Thursday — <span class=\"text-[#7D7D7D]/70\">4PM (All ages)</span><br /> Saturday — <span class=\"text-[#7D7D7D]/70\">10AM (All ages)</span>"
+      },
+      "mujeres": {
+        "title": "WOMEN'S CLASSES",
+        "horarios": "Monday — <span class=\"text-[#7D7D7D]/70\">5PM</span><br /> Wednesday — <span class=\"text-[#7D7D7D]/70\">5PM</span>"
       },
       "fundamentals": {
-        "title": "CLASSES <br class=\"hidden md:block\" /> FUNDAMENTALS <br class=\"hidden md:block\" /> BRAZILIAN JIU JITSU",
-        "horarios": "Friday - <span className=\"text-[#7D7D7D]/70\">6AM / 6PM</span>"
+        "title": "CLASSES <br class=\"hidden md:block\" /> FUNDAMENTALS <br class=\"hidden md:block\" /> BJJ",
+        "horarios": "Tuesday — <span class=\"text-[#7D7D7D]/70\">5PM</span><br /> Thursday — <span class=\"text-[#7D7D7D]/70\">5PM</span>"
       }
     }
   },
