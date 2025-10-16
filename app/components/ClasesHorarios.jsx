@@ -37,55 +37,55 @@ const ClasesHorarios = () => {
         </div>
 
         <div className="lg:border lg:border-[#F80000]/20">
-          <div className="grid grid-cols-1 lg:grid-cols-4 items-stretch">
-            <div className="border-b border-[#F80000]/20 lg:border-r lg:border-b-0 p-3 md:p-6 h-full min-h-[260px] flex flex-col">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-impact font-bold text-white mb-3 uppercase md:mt-20 whitespace-normal break-normal leading-tight" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.bjj.title') }}>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 items-stretch">
+            <div className="border-b md:border-r border-[#F80000]/20 p-2 sm:p-3 md:p-4 pt-4 md:pt-6 pb-2 flex flex-col">
+              <h2 className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl font-impact font-bold text-white mb-2 md:mb-3 uppercase md:mt-12 lg:mt-16 whitespace-normal break-normal leading-tight" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.bjj.title') }}>
               </h2>
-              <p className="text-[#ffffff]/70 font-sofia font-medium text-lg md:text-xl lg:text-xl leading-none mb-4" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.bjj.horarios') }}>
+              <p className="text-[#ffffff]/70 font-sofia font-medium text-lg md:text-xl lg:text-xl leading-snug mb-3" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.bjj.horarios') }}>
               </p>
             </div>
 
-            <div className="border-b border-[#F80000]/20 lg:border-r lg:border-b-0 p-3 md:p-6 h-full min-h-[260px] flex flex-col">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-impact font-bold text-white mb-3 uppercase md:mt-20 whitespace-normal break-normal leading-tight" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.submission.title') }}>
+            <div className="border-b border-[#F80000]/20 p-2 sm:p-3 md:p-4 pt-4 md:pt-6 pb-2 flex flex-col">
+              <h2 className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl font-impact font-bold text-white mb-2 md:mb-3 uppercase md:mt-12 lg:mt-16 whitespace-normal break-normal leading-tight" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.submission.title') }}>
               </h2>
-              <p className="text-[#ffffff]/70 font-sofia font-medium text-lg md:text-xl lg:text-xl leading-none mb-4" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.submission.horarios') }}>
+              <p className="text-[#ffffff]/70 font-sofia font-medium text-lg md:text-xl lg:text-xl leading-snug mb-3" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.submission.horarios') }}>
               </p>
             </div>
 
-            <div className="border-b border-[#F80000]/20 lg:border-r lg:border-b-0 p-3 md:p-6 h-full min-h-[260px] flex flex-col">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-impact font-bold text-white mb-3 uppercase md:mt-20 whitespace-normal break-normal leading-tight" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.boxeo.title') }}>
+            <div className="border-b md:border-r border-[#F80000]/20 p-2 sm:p-3 md:p-4 pt-4 md:pt-6 pb-2 flex flex-col">
+              <h2 className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl font-impact font-bold text-white mb-2 md:mb-3 uppercase md:mt-12 lg:mt-16 whitespace-normal break-normal leading-tight" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.boxeo.title') }}>
               </h2>
-              <p className="text-[#ffffff]/70 font-sofia font-medium text-lg md:text-xl lg:text-xl leading-none mb-4" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.boxeo.horarios') }}>
+              <p className="text-[#ffffff]/70 font-sofia font-medium text-lg md:text-xl lg:text-xl leading-snug mb-3" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.boxeo.horarios') }}>
               </p>
             </div>
 
-            <div className="border-b border-[#F80000]/20 lg:border-b-0 p-3 md:p-6 h-full min-h-[260px] flex flex-col">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-impact font-bold text-white mb-3 uppercase md:mt-20 whitespace-normal break-normal leading-tight" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.openMat.title') }}>
+            <div className="border-b border-[#F80000]/20 p-2 sm:p-3 md:p-4 pt-4 md:pt-6 pb-2 flex flex-col">
+              <h2 className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl font-impact font-bold text-white mb-2 md:mb-3 uppercase md:mt-12 lg:mt-16 whitespace-normal break-normal leading-tight" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.openMat.title') }}>
               </h2>
-              <p className="text-[#ffffff]/70 font-sofia font-medium text-lg md:text-xl lg:text-xl leading-none mb-4" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.openMat.horarios') }}>
+              <p className="text-[#ffffff]/70 font-sofia font-medium text-lg md:text-xl lg:text-xl leading-snug mb-3" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.openMat.horarios') }}>
               </p>
             </div>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-4 lg:border-t border-[#F80000]/20 items-stretch">
-            <div className="border-b border-[#F80000]/20 lg:border-r lg:border-b-0 p-3 md:p-6 lg:col-span-2 h-full min-h-[260px] flex flex-col">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-impact font-bold text-white mb-3 uppercase md:mt-20 whitespace-normal break-normal leading-tight" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.kids.title') }}>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 lg:border-t border-[#F80000]/20 items-stretch">
+            <div className="border-b md:border-r border-[#F80000]/20 p-2 sm:p-3 md:p-4 pt-4 md:pt-6 pb-2 flex flex-col">
+              <h2 className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl font-impact font-bold text-white mb-2 md:mb-3 uppercase md:mt-12 lg:mt-16 whitespace-normal break-normal leading-tight" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.kids.title') }}>
               </h2>
-              <p className="text-[#ffffff]/70 font-sofia font-medium text-lg md:text-xl lg:text-xl leading-none mb-4" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.kids.horarios') }}>
+              <p className="text-[#ffffff]/70 font-sofia font-medium text-lg md:text-xl lg:text-xl leading-snug mb-3" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.kids.horarios') }}>
               </p>
             </div>
 
-            <div className="border-b border-[#F80000]/20 lg:border-r lg:border-b-0 p-3 md:p-6 h-full min-h-[260px] flex flex-col">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-impact font-bold text-white mb-3 uppercase md:mt-20 whitespace-normal break-normal leading-tight" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.mujeres.title') }}>
+            <div className="border-b border-[#F80000]/20 p-2 sm:p-3 md:p-4 pt-4 md:pt-6 pb-2 flex flex-col">
+              <h2 className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl font-impact font-bold text-white mb-2 md:mb-3 uppercase md:mt-12 lg:mt-16 whitespace-normal break-normal leading-tight" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.mujeres.title') }}>
               </h2>
-              <p className="text-[#ffffff]/70 font-sofia font-medium text-lg md:text-xl lg:text-xl leading-none mb-4" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.mujeres.horarios') }}>
+              <p className="text-[#ffffff]/70 font-sofia font-medium text-lg md:text-xl lg:text-xl leading-snug mb-3" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.mujeres.horarios') }}>
               </p>
             </div>
 
-            <div className="p-3 md:p-6 lg:border-b-0 border-b border-[#F80000]/20 flex flex-col lg:justify-end h-full min-h-[260px]">
-              <h2 className="text-2xl sm:text-3xl md:text-3xl lg:text-3xl font-impact font-bold text-white mb-3 uppercase md:mt-20 whitespace-normal break-normal leading-tight" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.fundamentals.title') }}>
+            <div className="p-2 sm:p-3 md:p-4 pt-4 md:pt-6 pb-2 lg:border-b-0 border-b border-[#F80000]/20 flex flex-col lg:justify-end">
+              <h2 className="text-2xl sm:text-3xl md:text-3xl lg:text-3xl font-impact font-bold text-white mb-2 md:mb-3 uppercase md:mt-12 lg:mt-16 whitespace-normal break-normal leading-tight" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.fundamentals.title') }}>
               </h2>
-              <p className="text-[#ffffff]/70 font-sofia font-medium text-lg md:text-xl lg:text-xl leading-none mb-4" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.fundamentals.horarios') }}>
+              <p className="text-[#ffffff]/70 font-sofia font-medium text-lg md:text-xl lg:text-xl leading-snug mb-3" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.fundamentals.horarios') }}>
               </p>
             </div>
           </div>
