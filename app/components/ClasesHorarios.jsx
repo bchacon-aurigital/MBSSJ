@@ -46,20 +46,6 @@ const ClasesHorarios = () => {
             </div>
 
             <div className="border-b border-[#F80000]/20 p-2 sm:p-3 md:p-4 pt-4 md:pt-6 pb-2 flex flex-col">
-              <h2 className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl font-impact font-bold text-white mb-2 md:mb-3 uppercase md:mt-12 lg:mt-16 whitespace-normal break-normal leading-tight" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.submission.title') }}>
-              </h2>
-              <p className="text-[#ffffff]/70 font-sofia font-medium text-lg md:text-xl lg:text-xl leading-snug mb-3" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.submission.horarios') }}>
-              </p>
-            </div>
-
-            <div className="border-b md:border-r border-[#F80000]/20 p-2 sm:p-3 md:p-4 pt-4 md:pt-6 pb-2 flex flex-col">
-              <h2 className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl font-impact font-bold text-white mb-2 md:mb-3 uppercase md:mt-12 lg:mt-16 whitespace-normal break-normal leading-tight" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.boxeo.title') }}>
-              </h2>
-              <p className="text-[#ffffff]/70 font-sofia font-medium text-lg md:text-xl lg:text-xl leading-snug mb-3" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.boxeo.horarios') }}>
-              </p>
-            </div>
-
-            <div className="border-b border-[#F80000]/20 p-2 sm:p-3 md:p-4 pt-4 md:pt-6 pb-2 flex flex-col">
               <h2 className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl font-impact font-bold text-white mb-2 md:mb-3 uppercase md:mt-12 lg:mt-16 whitespace-normal break-normal leading-tight" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.openMat.title') }}>
               </h2>
               <p className="text-[#ffffff]/70 font-sofia font-medium text-lg md:text-xl lg:text-xl leading-snug mb-3" dangerouslySetInnerHTML={{ __html: t('clasesHorarios.clases.openMat.horarios') }}>

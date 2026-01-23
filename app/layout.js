@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "MAURO SERGIO BJJ - Academia de Brazilian Jiu Jitsu en Costa Rica",
   description: "Academia de Brazilian Jiu Jitsu en San José, Costa Rica. Mauro Sergio, cinturón negro 5to Dan con +30 años de experiencia. Clases para niños y adultos. ¡Agenda tu sesión!",
-  keywords: "jiu jitsu costa rica, brazilian jiu jitsu san jose, academia jiu jitsu pozos, artes marciales costa rica, defensa personal costa rica, jiu jitsu lindora, clases jiu jitsu, mauro sergio bjj, jiu jitsu gracie costa rica, entrenamiento jiu jitsu, submission wrestling, open mat, clases para niños, jiu jitsu fundamentals",
+  keywords: "jiu jitsu costa rica, brazilian jiu jitsu san jose, academia jiu jitsu pozos, artes marciales costa rica, defensa personal costa rica, jiu jitsu lindora, clases jiu jitsu, mauro sergio bjj, jiu jitsu gracie costa rica, entrenamiento jiu jitsu, open mat, clases para niños, jiu jitsu fundamentals",
   authors: [{ name: "Mauro Sergio BJJ" }],
   creator: "Mauro Sergio BJJ",
   publisher: "Mauro Sergio BJJ",

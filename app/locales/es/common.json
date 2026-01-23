@@ -103,14 +103,6 @@
         "title": "BRAZILIAN <br class=\"hidden md:block\" /> JIU-JITSU",
         "horarios": "Lunes a Jueves — <span class=\"text-[#7D7D7D]/70\">6AM / 6PM</span><br /> Lunes — <span class=\"text-[#7D7D7D]/70\">7PM</span><br /> Miércoles — <span class=\"text-[#7D7D7D]/70\">7PM</span>"
       },
-      "submission": {
-        "title": "SUBMISSION <br class=\"hidden md:block\" /> WRESTLING",
-        "horarios": "Miércoles — <span class=\"text-[#7D7D7D]/70\">12MD</span><br /> Viernes — <span class=\"text-[#7D7D7D]/70\">7PM</span><br /> Sábados — <span class=\"text-[#7D7D7D]/70\">11AM</span>"
-      },
-      "boxeo": {
-        "title": "BOXEO",
-        "horarios": "Martes — <span class=\"text-[#7D7D7D]/70\">7AM / 7PM</span><br /> Jueves — <span class=\"text-[#7D7D7D]/70\">7PM</span>"
-      },
       "openMat": {
         "title": "OPEN <br class=\"hidden md:block\" /> MAT",
         "horarios": "Viernes — <span class=\"text-[#7D7D7D]/70\">6PM</span>"
