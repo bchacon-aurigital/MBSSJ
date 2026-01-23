@@ -101,15 +101,15 @@
     "clases": {
       "bjj": {
         "title": "BRAZILIAN <br class=\"hidden md:block\" /> JIU-JITSU",
-        "horarios": "Lunes a Jueves — <span class=\"text-[#7D7D7D]/70\">6AM / 6PM</span><br /> Lunes — <span class=\"text-[#7D7D7D]/70\">7PM</span><br /> Miércoles — <span class=\"text-[#7D7D7D]/70\">7PM</span>"
+        "horarios": "Lunes — <span class=\"text-[#7D7D7D]/70\">6AM / 6PM / 7PM</span><br /> Martes — <span class=\"text-[#7D7D7D]/70\">6AM / 6PM</span><br /> Miércoles — <span class=\"text-[#7D7D7D]/70\">6AM / 6PM / 7PM</span><br /> Jueves — <span class=\"text-[#7D7D7D]/70\">6AM / 6PM</span><br /> Viernes — <span class=\"text-[#7D7D7D]/70\">12MD</span>"
       },
       "openMat": {
         "title": "OPEN <br class=\"hidden md:block\" /> MAT",
-        "horarios": "Viernes — <span class=\"text-[#7D7D7D]/70\">6PM</span>"
+        "horarios": "Viernes — <span class=\"text-[#7D7D7D]/70\">6AM / 6PM</span>"
       },
       "kids": {
         "title": "CLASES <br class=\"hidden md:block\" /> KIDS BJJ",
-        "horarios": "Lunes — <span class=\"text-[#7D7D7D]/70\">4PM (11 a 13 años)</span><br /> Martes — <span class=\"text-[#7D7D7D]/70\">3PM (3 a 6 años)</span><br /> Martes — <span class=\"text-[#7D7D7D]/70\">4PM (6 a 12 años)</span><br /> Miércoles — <span class=\"text-[#7D7D7D]/70\">4PM (11 a 13 años)</span><br /> Jueves — <span class=\"text-[#7D7D7D]/70\">4PM (Todas las edades)</span><br /> Sábado — <span class=\"text-[#7D7D7D]/70\">10AM (Todas las edades)</span>"
+        "horarios": "Lunes — <span class=\"text-[#7D7D7D]/70\">4PM (Juniors 11 a 13 años)</span><br /> Martes — <span class=\"text-[#7D7D7D]/70\">3PM (3 a 6 años)</span><br /> Martes — <span class=\"text-[#7D7D7D]/70\">4PM (6 a 12 años)</span><br /> Miércoles — <span class=\"text-[#7D7D7D]/70\">4PM (Juniors 11 a 13 años)</span><br /> Jueves — <span class=\"text-[#7D7D7D]/70\">4PM (Todas las edades)</span><br /> Sábado — <span class=\"text-[#7D7D7D]/70\">10AM (Todas las edades)</span>"
       },
       "mujeres": {
         "title": "CLASES <br class=\"hidden md:block\" /> DE MUJERES",
