@@ -6,7 +6,7 @@ import useTranslation from '../hooks/useTranslation';
 const Footer = () => {
     const { t } = useTranslation();
     return (
-        <footer className="w-full bg-[#F80000] text-black font-sofia pt-10 pb-4 px-4 relative space-y-12" style={{ overflow: 'hidden' }}>
+        <footer className="w-full bg-white text-black font-sofia pt-10 pb-4 px-4 relative space-y-12" style={{ overflow: 'hidden' }}>
             <div className="mx-auto flex flex-col md:flex-row sm:justify-between w-full px-4 gap-10">
                 {/* Columna izquierda: Info Mauro Sergio BJJ */}
                 <div className="flex-1 max-w-[270px] text-center md:text-left mx-auto sm:mx-0">
@@ -47,14 +47,14 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="flex justify-end items-end">
+            <div className="flex justify-end items-end bg-[#F80000] py-2 -mx-4">
                 <div className="w-full">
                     <div className="md:text-center">
                         <div className="flex flex-row justify-between md:mx-4 font-sofia">
-                            <p className="text-white text-lg md:text-xl lg:text-2xl font-bold tracking-wider">
+                            <p className="text-black text-lg md:text-xl lg:text-2xl font-bold tracking-wider">
                                 {t('footer.heroFooter.name')}
                             </p>
-                            <p className="text-white text-lg md:text-xl lg:text-2xl font-bold tracking-wider text-right">
+                            <p className="text-black text-lg md:text-xl lg:text-2xl font-bold tracking-wider text-right">
                                 {t('footer.heroFooter.academy')}
                             </p>
                         </div>

@@ -13,7 +13,7 @@ const Instructor = () => {
 
         <div className="flex flex-col justify-end border-[#7D7D7D]/50 border-t border-l-0 border-b border-r-0 pt-14">
           <div className="mb-6 lg:mb-8 lg:px-12">
-            <h1 className="text-3xl md:text-6xl font-impact font-bold text-[#F80000] mb-4" dangerouslySetInnerHTML={{ __html: t('instructor.title') }}>
+            <h1 className="text-3xl md:text-6xl font-impact font-bold text-black mb-4" dangerouslySetInnerHTML={{ __html: t('instructor.title') }}>
             </h1>
             <p className="mb-6 text-base md:text-xl text-[#7D7D7D] max-w-xl font-sofia font-semibold">
               {t('instructor.description')}

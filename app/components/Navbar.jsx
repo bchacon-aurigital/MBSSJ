@@ -39,7 +39,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="w-full px-3 lg:px-6 py-4 flex justify-between items-center relative">
+    <nav className="w-full px-3 lg:px-6 py-4 flex justify-between items-center relative bg-[#F80000]">
       <div className="flex items-center">
         <div className="text-black font-medium text-2xl font-impact flex flex-row items-center justify-center">
           <img src="/assets/LogoNavbar.svg" alt="Logo" className="w-10 h-10 mr-2" />
@@ -75,7 +75,7 @@ const Navbar = () => {
       </div>
 
       <div className="hidden lg:block">
-        <a href="https://wa.me/50688504416" className="bg-black text-white px-6 py-2 font-medium hover:bg-white hover:text-black duration-500 font-impact uppercase">
+        <a href="https://wa.me/50688504416" className="bg-black text-[#F80000] px-6 py-2 font-medium hover:bg-white hover:text-black duration-500 font-impact uppercase">
           {t('navbar.buttons.agendarSesion')}
         </a>
       </div>

@@ -6,17 +6,17 @@ import useTranslation from '../hooks/useTranslation';
 const Hero = () => {
     const { t } = useTranslation();
     return (
-        <div className="h-auto lg:h-screen flex flex-col bg-[#F80000]">
+        <div className="h-auto lg:h-screen flex flex-col bg-white">
             <div className="h-1/2 w-full flex flex-col">
                 <Navbar />
                 <div className="flex-1 flex justify-end items-end px-2">
                     <div className="w-full">
                         <div className="sm:text-center">
                             <div className="flex flex-row justify-between sm:mx-3 font-sofia">
-                                <p className="text-white text-lg md:text-xl lg:text-2xl font-bold tracking-wider">
+                                <p className="text-black text-lg md:text-xl lg:text-2xl font-bold tracking-wider">
                                 {t('hero.name')}
                                 </p>
-                                <p className="text-white text-lg md:text-xl lg:text-2xl font-bold tracking-wider text-right" >
+                                <p className="text-black text-lg md:text-xl lg:text-2xl font-bold tracking-wider text-right" >
                                     {t('hero.academy')}
                                 </p>
                             </div>
